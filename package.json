@@ -1,6 +1,6 @@
 {
-  "name": "containor",
-  "version": "1.0.0",
+  "name": "@suouzuki/containor",
+  "version": "6.1.4",
   "description": "An enhanced Map-based data structure for Node.js, providing advanced collection management, iteration, and transformation utilities.",
   "exports": {
     ".": {
@@ -43,7 +43,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/suouzuki/containor.git"
+    "url": "git+https://github.com/suouzuki/containor.git"
   },
   "bugs": {
     "url": "https://github.com/suouzuki/containor/issues"
