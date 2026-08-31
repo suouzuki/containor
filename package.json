@@ -1,6 +1,6 @@
 {
   "name": "@suouzuki/containor",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "An enhanced Map-based data structure for Node.js, providing advanced collection management, iteration, and transformation utilities.",
   "exports": {
     ".": {
