@@ -1,25 +1,24 @@
 {
   "name": "@suouzuki/containor",
-  "version": "6.1.4",
+  "version": "7.0.0",
   "description": "An enhanced Map-based data structure for Node.js, providing advanced collection management, iteration, and transformation utilities.",
   "exports": {
     ".": {
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.cjs"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
-  "main": "./dist/cjs/index.cjs",
-  "module": "./dist/esm/index.js",
-  "types": "./dist/esm/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
   "files": [
     "dist/",
     "README.md",
     "LICENSE"
   ],
   "scripts": {
-    "build:esm": "tsc --project tsconfig.esm.json",
-    "build:cjs": "tsc --project tsconfig.cjs.json",
-    "build": "npm run build:esm && npm run build:cjs"
+    "build": "tsup"
   },
   "keywords": [
     "containor",
@@ -30,8 +29,6 @@
     "utility",
     "enhanced-map",
     "key-value",
-    "javascript",
-    "nodejs",
     "esm",
     "commonjs",
     "dual-module"
@@ -51,6 +48,10 @@
   "homepage": "https://github.com/suouzuki/containor#readme",
   "devDependencies": {
     "@types/node": "^24.10.0",
+    "tsup": "^8.5.1",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }

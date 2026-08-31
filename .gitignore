@@ -1,7 +1,13 @@
 node_modules/
 dist/
 build/
+tests/
+test/
+.vscode/
 .env
-*.log
 .DS_Store
+*.log
 *.tsbuildinfo
+*.yaml
+*.txt
+*.test.*

@@ -1,7 +1,12 @@
+.vscode/
 node_modules/
 src/
 tests/
+test/
 *.log
 *.ts
 *.env
 *.md
+*.txt
+*.yaml
+*.test.*
